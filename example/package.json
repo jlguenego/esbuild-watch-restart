@@ -1,0 +1,31 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "ewr src/server.ts",
+    "build": "tsc",
+    "start:prod": "node dist/server.js",
+    "clean": "rimraf dist",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "serve-index": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.1",
+    "@types/serve-index": "^1.9.1",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "esbuild": "^0.20.0",
+    "eslint": "^8.50.0",
+    "rimraf": "^4.4.0",
+    "typescript": "^4.9.5"
+  }
+}

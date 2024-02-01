@@ -1,0 +1,4 @@
+{
+  "$schema": "https://json.schemastore.org/nodemon.json",
+  "exec": "node --loader ts-node/esm"
+}
