@@ -6,7 +6,7 @@ import api from "./api";
 
 const app = express();
 const port = +(process.env.GSTOCK_PORT || 3000);
-const publicDir = "../front/dist";
+const publicDir = ".";
 
 app.use((req, res, next) => {
   console.log("req: ", req.method, req.url);
