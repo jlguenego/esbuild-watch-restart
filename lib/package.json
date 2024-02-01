@@ -12,5 +12,8 @@
   "license": "ISC",
   "bin": {
     "ewr": "src/index.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.20.0"
   }
 }
