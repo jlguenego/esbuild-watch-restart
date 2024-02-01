@@ -22,6 +22,16 @@ app.get("/articles", (req, res) => {
   res.json(articles);
 });
 
+app.get("/crash", () => {
+  try {
+    console.log("getting crash");
+    throw new Error("crash !!!");
+  } catch (err) {
+    console.log("err: ", err);
+    throw err;
+  }
+});
+
 app.use(json());
 
 app.post("/articles", (req, res) => {

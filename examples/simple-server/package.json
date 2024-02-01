@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "ewr src/server.ts",
-    "build": "tsc",
+    "build": "ewr --build-only src/server.ts",
     "start:prod": "node dist/server.js",
     "clean": "rimraf dist",
     "lint": "eslint ."
