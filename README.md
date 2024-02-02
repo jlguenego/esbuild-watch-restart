@@ -1,8 +1,11 @@
 # esbuild-watch-restart
 
-Like `nodemon` + `ts-node`, but with `esbuild`.
+I loved `nodemon` + `ts-node`, for CommonJS.
+But unfortunately it is VERY DIFFICULT to set them up with ES Module.
 
-Designed to solve the user issues related to ES Modules with `typescript` and `nodejs`.
+So I did the same but with `esbuild`.
+
+This package is designed to quickly solve the developper struggling issues related to ES Modules with `typescript` and `nodejs`, both build and watch/restart.
 
 ## Install
 
