@@ -11,7 +11,7 @@ Prerequisites:
 You should already have a npm project using typescript, want to compile it with ESM (EcmaScript Modules), have set `type=module` in `package.json`.
 
 ```
-npm i -D @jlguenego@esbuild-watch-restart
+npm i -D @jlguenego/esbuild-watch-restart
 ```
 
 ## Use
