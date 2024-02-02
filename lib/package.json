@@ -1,6 +1,6 @@
 {
   "name": "@jlguenego/esbuild-watch-restart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use ESbuild to build, watch and restart for development purpose",
   "type": "module",
   "main": "src/index.js",
