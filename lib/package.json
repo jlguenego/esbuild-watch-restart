@@ -5,15 +5,28 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "commit-and-tag-version"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "esm",
+    "module",
+    "es module",
+    "javascript",
+    "esbuild",
+    "watch",
+    "restart"
+  ],
+  "author": "Jean-Louis GUENEGO <jlguenego@gmail.com>",
   "license": "ISC",
   "bin": {
     "ewr": "src/index.js"
   },
   "dependencies": {
     "esbuild": "^0.20.0"
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "^12.2.0"
   }
 }
