@@ -19,14 +19,40 @@ npm i -D @jlguenego@esbuild-watch-restart
 To start a build like `nodemon`
 
 ```
-ewr src/server.ts
+npx ewr src/server.ts
 ```
 
 For build only:
 
 ```
-ewr --build-only src/server.ts
+npx ewr --build-only src/server.ts
 ```
+
+Of course this is better to create `scripts` in `package.json`:
+
+```json
+  "scripts": {
+    "start": "ewr src/server.ts",
+    "build": "ewr --build-only src/server.ts",
+    "start:prod": "node dist/server.js",
+    "clean": "rimraf dist",
+    "lint": "eslint ."
+  },
+```
+
+## Configuration
+
+KISS : Keep It Stupidely Simple
+
+No configuration except:
+
+- `--build-only` option.
+
+Feel free to ask more options but you know it is better to not have a lot.
+
+## Examples
+
+The repo has an `examples` project. Go in it to check its content.
 
 ## Improvement
 
