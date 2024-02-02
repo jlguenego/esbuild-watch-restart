@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.5](https://github.com/jlguenego/esbuild-watch-restart/compare/v1.0.4...v1.0.5) (2024-02-02)
+
+
+### Bug Fixes
+
+* console.log send an extra newline ([b60b50d](https://github.com/jlguenego/esbuild-watch-restart/commit/b60b50d721cbdd622ba9edd808cd632df2cf274e))
+
 ## [1.0.4](https://github.com/jlguenego/esbuild-watch-restart/compare/v1.0.3...v1.0.4) (2024-02-02)
 
 
