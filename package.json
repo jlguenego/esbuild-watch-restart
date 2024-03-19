@@ -1,7 +1,7 @@
 {
   "name": "esbuild-watch-restart",
   "version": "1.0.0",
-  "description": "A nodemon like solution with ES Module and typescript using ESBuild to be fast",
+  "description": "Monorepo containing the esbuild-watch-restart library and examples",
   "workspaces": [
     "lib",
     "examples/simple-server"
