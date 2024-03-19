@@ -63,6 +63,21 @@ I intend to maintain regularely this project. So feel free to make issue for mak
 
 I develop for users, not for the beauty of code.
 
+## Development
+
+```
+git clone https://github.com/jlguenego/esbuild-watch-restart.git
+```
+
+## Publishing
+
+To publish
+
+```
+cd lib
+npm run release
+```
+
 ## Author
 
 Jean-Louis GUENEGO <jlguenego@gmail.com>
