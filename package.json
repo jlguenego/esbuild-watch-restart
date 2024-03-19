@@ -1,7 +1,7 @@
 {
   "name": "esbuild-watch-restart",
   "version": "1.0.0",
-  "description": "",
+  "description": "A nodemon like solution with ES Module and typescript using ESBuild to be fast",
   "workspaces": [
     "lib",
     "examples/simple-server"
